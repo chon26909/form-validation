@@ -11,3 +11,51 @@ body {
   background-color: #fafafa;
 }
 
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+form {
+  padding: 10px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 10px;
+  border: 1px solid gray;
+  margin: 10px 0 0 0;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+form button {
+  background-color: #3498db;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid #3498db;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+}
