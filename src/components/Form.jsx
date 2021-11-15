@@ -14,12 +14,12 @@ const Form = () => {
 
 
     const submitForm = (e) => {
-        // e.preventDefault();
-        // console.log("submit");
+        e.preventDefault();
+        console.log("submit");
 
-        // if (username.length < 8) {
-        //     setErrorUsername("ป้อนชื่อผู้ใช้ จำนวนมากว่า 8 ตัวอักษร")
-        // }
+        if (username.length < 8) {
+            setErrorUsername("ป้อนชื่อผู้ใช้ จำนวนมากว่า 8 ตัวอักษร")
+        }
     }
 
     return (
